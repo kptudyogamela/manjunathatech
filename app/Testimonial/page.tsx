@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Testimonials() {
   const testimonials = [
     {
@@ -28,7 +29,7 @@ export default function Testimonials() {
             Testomonials
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
-            Our clients value our precision, reliability, and consistent quality. Here's what they have to say about working with us.
+            Our clients value our precision, reliability, and consistent quality. Here is what they have to say about working with us.
           </p>
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
@@ -39,10 +40,12 @@ export default function Testimonials() {
           {testimonials.map((item, index) => (
             <div key={index} className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">
-                <img
+                <Image
                   alt="testimonial"
-                  className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src={item.img}
+                  width={80}
+                  height={80}
+                  className="mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 />
                 <p className="leading-relaxed">{item.text}</p>
                 <span className="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
