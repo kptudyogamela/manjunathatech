@@ -71,6 +71,6 @@
     @apply bg-background text-foreground;
   }
 }
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */

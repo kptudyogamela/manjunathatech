@@ -1,5 +1,5 @@
 import About from './About/page';
-import { Clients } from './clients/page';
+import { Clients } from './Clients/page';
 import Contact from './Contact/page';
 import Footer from './Footer/page';
 import Gallery from './Gallery/page';

@@ -5,19 +5,19 @@ export default function Testimonials() {
       name: "Ravi Kumar",
       role: "Production Manager, BFW",
       text: "Manjunatha Precission Technology has been a reliable partner in delivering precision job works on time. Their work on our milling components is top-notch.",
-      img: "images/testi1.png",
+      img: "/images/testi1.png",
     },
     {
       name: "Divya Shetty",
       role: "Quality Head, Kennametal",
       text: "We appreciate their attention to detail and ability to meet our strict quality requirements. A growing name in precision manufacturing.",
-      img: "images/testi2.png",
+      img: "/images/testi2.png",
     },
     {
       name: "Mohammed Irfan",
       role: "Senior Engineer, ETA Technologies",
       text: "Their infrastructure is well-organized, and the team is both professional and responsive. Highly recommended for specialized job work.",
-      img: "images/testi3.png",
+      img: "/images/testi3.png",
     },
   ];
 

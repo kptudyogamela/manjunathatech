@@ -37,10 +37,10 @@ export function Clients() {
       </div>
 
       <div className="flex justify-center">
-        <Carousel className="w-full max-w-4xl">
-          <CarouselContent className="-ml-1">
+        <Carousel className="w-full max-w-4xl overflow-hidden">
+          <CarouselContent>
             {clientLogos.map((logo, index) => (
-              <CarouselItem key={index} className="pl-1 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem key={index} className="pl-2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-2 flex justify-center items-center">
                   <Card>
                     <CardContent className="flex items-center justify-center p-6">
@@ -60,6 +60,7 @@ export function Clients() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+
       </div>
     </section>
   )
