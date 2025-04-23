@@ -9,9 +9,6 @@ export default function Contact() {
             height="100%"
             className="absolute inset-0"
             title="map"
-            marginHeight="0"
-            marginWidth="0"
-            scrolling="no"
             style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d586.3217897153503!2d77.49966999914193!3d13.00794470184367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3df71a583285%3A0x5b2709afad775ed2!2sManjunatha%20automats!5e1!3m2!1sen!2sin!4v1745368669334!5m2!1sen!2sin"
