@@ -4,7 +4,7 @@ import Footer from './Footer/page';
 import Gallery from './Gallery/page';
 import Herosection from './Hero/page';
 import Infrastructure from './Infrastructure/page';
-import { Clients } from './OurClients/page';
+import { OurClients } from './OurClients/page';
 import Services from './Services/page';
 import Testimonials from './Testimonial/page';
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
         <Infrastructure />
       </section>
       <section id="ourClients" className="...">
-        <Clients />
+        <OurClients />
       </section>
       <section id="gallery" className="...">
         <Gallery />

@@ -19,7 +19,7 @@ const clientLogos = [
   "/images/logo5.png",
 ]
 
-export function Clients() {
+export function OurClients() {
   return (
     <section id="services" className="text-gray-600 body-font">
 
