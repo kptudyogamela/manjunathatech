@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <>
       {/* Top Info Bar */}
-      <div className="w-full hidden bg-gray-100 text-center py-2 text-sm font-medium animate-pulse-color">
+      <div className="w-full  bg-gray-100 text-center py-2 text-sm font-medium animate-pulse-color">
         📞 +91 99007 26508 | ✉️ kantharajur2023@gmail.com
       </div>
 
