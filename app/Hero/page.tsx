@@ -69,8 +69,7 @@ function Herosection() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-
-            src="images/Udyamregistration2.png" />
+            src="images/10.jpg" />
         </div>
       </div>
     </section>
