@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Footer() {
@@ -110,20 +111,34 @@ export default function Footer() {
         </div>
       </div>
 
+
+
       <div className="bg-gray-100">
-        <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col justify-between">
-          <p className="text-sm text-gray-500 hover:text-yellow-500">© 2025 Manjunatha Precission Technology</p>
-          <p className="text-sm text-gray-500 hover:text-yellow-500 cursor-pointer">Developed by Swasyaha Solutions</p>
-          <span className="inline-flex mt-2 sm:mt-0">
+        <div className="container px-5 py-6 mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
+
+          {/* Copyright */}
+          <p className="text-xs sm:text-sm text-gray-500 hover:text-yellow-500">
+            © {new Date().getFullYear()} Manjunatha Precission Technology    </p>
+
+          {/* Developer Credit */}
+          <Link href="https://swasyaha.in" target="_blank">
+            <span className="text-xs sm:text-sm text-gray-500 hover:text-yellow-500 hover:underline cursor-pointer transition">
+              Developed & Maintained by Swasyaha Solutions
+            </span>
+          </Link>
+
+          {/* Social Icons */}
+          <span className="inline-flex justify-center gap-3 mt-2 md:mt-0">
+
             {/* Facebook */}
-            <a className="text-gray-500 mr-2 hover:text-yellow-600" href="#" aria-label="Facebook">
+            <a className="text-gray-500 hover:text-yellow-600" href="#" aria-label="Facebook">
               <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
 
             {/* Twitter */}
-            <a className="text-gray-500 mr-2 hover:text-yellow-600" href="#" aria-label="Twitter">
+            <a className="text-gray-500 hover:text-yellow-600" href="#" aria-label="Twitter">
               <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0016 3a4.5 4.5 0 00-4.39 5.54A12.94 12.94 0 013 4s-4 9 5 13a13.05 13.05 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
@@ -136,14 +151,14 @@ export default function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
               </svg>
-            </a>{/* YouTube */}
+            </a>
+
             {/* YouTube */}
-            <a className="text-gray-500 ml-2 hover:text-yellow-600" href="#" aria-label="YouTube">
+            <a className="text-gray-500 hover:text-yellow-600" href="#" aria-label="YouTube">
               <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M19.615 3.184A4.873 4.873 0 0021.5 6.07v11.86a4.873 4.873 0 01-1.885 3.046C18.507 21.5 12 21.5 12 21.5s-6.507 0-7.615-.524A4.873 4.873 0 012.5 17.93V6.07a4.873 4.873 0 011.885-3.046C5.493 2.5 12 2.5 12 2.5s6.507 0 7.615.684zM10 15.5v-7l6 3.5-6 3.5z" />
               </svg>
             </a>
-
 
           </span>
         </div>
