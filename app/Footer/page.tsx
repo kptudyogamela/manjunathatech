@@ -122,7 +122,7 @@ export default function Footer() {
 
           {/* Developer Credit */}
           <a
-            href="/Files/Disclaimer.pdf"
+            href="https://swasyaha.in"
             target="_blank"
             rel="noopener noreferrer">
             <span className="text-xs sm:text-sm text-gray-500 hover:text-yellow-500 hover:underline cursor-pointer transition">
