@@ -121,11 +121,14 @@ export default function Footer() {
             © {new Date().getFullYear()} Manjunatha Precission Technology    </p>
 
           {/* Developer Credit */}
-          <Link href="https://swasyaha.in" target="_blank">
+          <a
+            href="/Files/Disclaimer.pdf"
+            target="_blank"
+            rel="noopener noreferrer">
             <span className="text-xs sm:text-sm text-gray-500 hover:text-yellow-500 hover:underline cursor-pointer transition">
               Developed & Maintained by Swasyaha Solutions
             </span>
-          </Link>
+          </a>
 
           {/* Social Icons */}
           <span className="inline-flex justify-center gap-3 mt-2 md:mt-0">
